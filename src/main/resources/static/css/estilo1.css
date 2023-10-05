@@ -1,0 +1,19 @@
+
+/*
+    Archivo de los estilo 1
+    Aplicado a:
+    - contactenos
+    - nosotros
+    - principal
+*/
+
+section {
+    overflow-y: scroll;
+    position: fixed; /*posición fija*/
+    top: 100px;       /* concuerda con ancho del header*/
+    left: 0;       /*concuerda con ancho del aside*/
+    bottom: 30px;   
+    width: 100%;
+    padding: 20px 50px 0;
+}
+

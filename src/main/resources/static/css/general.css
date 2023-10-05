@@ -1,0 +1,91 @@
+
+/*
+    Aspectos generales aplicados a todas las páginas: 
+    - Encabezado con menú
+    - Pie de página
+    - Tipos de letra de encabezado
+*/
+
+
+/* ASPECTOS UNIVERSALES ---------------------------- */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+body {
+    margin: 0;                      /*margin*/
+    padding: 80px 100px 0;          /*para que los textos inician en 90px*/
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* ENCABEZADO ------------------------------------- */
+
+header{
+    position: fixed;                /*posición fija*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;     /*concuerda con el padding (?)*/
+}
+
+h1 {
+    font-family: 'Times New Roman',serif;
+    font-size: 36px;
+}
+
+.logo {
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: black;
+    padding: 0 50px 50px;
+}
+
+.nav-link{
+    text-decoration: none;
+    line-height: 100px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+.nav-link:active{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+
+
+/* SECCIONES Y ASIDES ------------------------------ */
+
+h2 {
+    font-family: 'Times New Roman',serif;
+    font-size: 60px;    
+}
+
+h3 { 
+    font-family: 'Times New Roman',serif;
+    font-size: 40px; 
+}
+/* PIE DE PÁGINA ------------------------------------ */
+
+footer { 
+    position: fixed; /*posición fija*/
+    background-color: whitesmoke;
+    left: 0;               
+    bottom: 0;   
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+
+/*
+    Archivo de los estilo 2
+    Aplicado a:
+    - blog
+    - tienda
+*/
+
+aside {
+    position: fixed; /*posición fija*/
+    overflow-y: scroll;
+    top: 100px;       /* concuerda con ancho del header*/
+    left: 70%;
+    bottom: 20px;   /*dejando espacio para pie de pagina*/
+    width: 20%;
+    padding: 20px 40px 60px;
+   /* background-color: bisque;*/
+}
+
+section {
+    overflow-y: scroll;
+    position: fixed; /*posición fija*/
+    top: 100px;       /* concuerda con ancho del header*/
+    left: 0;       /*concuerda con ancho del aside*/
+    bottom: 20px;   
+    width: 70%;
+    padding: 20px 80px 60px;
+    /*background-color: aliceblue;*/
+}
+
+/* Tienda - Especificos -------------------------------- */
+
+.subheading{                                                                    /*"Subtítulo Filtros"*/
+    font-family: "Times New Roman","Garamond";
+    font-size: 26px; 
+}
+
+

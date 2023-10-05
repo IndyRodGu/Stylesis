@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Stylesis - Tienda</title>
+        <meta charset="UTF-8">
+        <meta name="descripción" content="Práctica 2 IR">
+        <meta name="keywords" content="web, html5, css, práctica">
+        <link href="css/general.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilo2.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- Barra de menú principal ------------------------ -->
+        <header>
+            <nav class="nav">
+                <!-- Logo y enlace a principal -->
+                <a class="logo" href="principal.html"><h1>stylesis</h1></a>
+                <!-- Menu -->
+                <a class="nav-link" href="tienda.html">tienda</a>
+                <a class="nav-link" href="asesores.html">asesores</a>
+                <a class="nav-link" href="blog.html">blog</a>
+                <a class="nav-link" href="nosotros.html">nosotros</a>
+                <a class="nav-link" href="contactenos.html">contáctenos</a>
+                
+            </nav>
+        </header>
+        <section>
+            <h2>Tienda</h2>
+            <article> <!-- class="articulo" -->
+                <!-- <img src="src" width="width" height="height" alt="alt"/> -->
+                <h4>Objeto</h4>
+                <p>Precio</p>
+                <!-- <input> -->
+            </article>
+        </section>
+        <aside>
+            <h4 class="subheading">Filtros</h4>
+            <form>
+                <table>
+                    <tr> <!-- Subtítulo Talla --------------------------------------- -->
+                        <td colspan ="2"><h4>Talla</h4></td>
+                    </tr>
+                    <tr> <!-- XS -->
+                        <td><input type="checkbox" name="talla" id="XS" value="XS"> </td>
+                        <td><label for="XS">XS</label></td>
+                    </tr>
+                    <tr> <!-- S -->
+                        <td><input type="checkbox" name="talla" id="S" value="S"> </td>
+                        <td><label for="S">S</label></td>
+                    </tr>
+                    <tr> <!-- M -->
+                        <td><input type="checkbox" name="talla" id="M" value="M"></td>
+                        <td><label for="M">M</label></td>
+                    </tr>
+                    <tr> <!-- L -->
+                        <td><input type="checkbox" name="talla" id="L" value="L"></td>
+                        <td><label for="L">L</label></td>
+                    </tr>
+                    <tr> <!-- XL -->
+                        <td><input type="checkbox" name="talla" id="XL" value="XL"></td>
+                        <td><label for="XL">XL</label></td>
+                    </tr>
+                    <tr> <!-- XXL -->
+                        <td><input type="checkbox" name="talla" id="XXL" value="XXL"></td>
+                        <td><label for="XXL">XXL</label></td>
+                    </tr>
+                    <tr> <!-- Subtítulo Tipo de Prenda ------------------------------- -->
+                        <td colspan = "2"><h4>Tipo de prenda</h4></td>
+                    </tr>
+                    <tr> <!-- Blusa -->
+                        <td><input type="checkbox" name="tipoPrenda" id="Blusa" value="Blusa"> </td>
+                        <td><label for="Blusa">Blusa</label></td>
+                    </tr>
+                    <tr> <!-- Cammiseta -->
+                        <td><input type="checkbox" name="tipoPrenda" id="Camiseta" value="Camiseta"></td>
+                        <td><label for="Camiseta">Camiseta</label></td>
+                    </tr>
+                    <tr> <!-- Pantalón -->
+                        <td><input type="checkbox" name="tipoPrenda" id="Pantalon" value="Pantalon"></td>
+                        <td><label for="Pantalon">Pantalón</label></td>
+                    </tr>
+                    <tr> <!-- Falda -->
+                        <td><input type="checkbox" name="tipoPrenda" id="Falda" value="Falda"></td>
+                        <td><label for="Falda">Falda</label></td>
+                    </tr>
+                    <tr> <!-- Shorts -->
+                        <td><input type="checkbox" name="tipoPrenda" id="Shorts" value="Shorts"></td>
+                        <td><label for="Shorts">Shorts</label></td>
+                    </tr>
+                    <tr> <!-- Sueter -->
+                        <td><input type="checkbox" name="tipoPrenda" id="Sueter" value="Sueter"></td>
+                        <td><label for="Sueter">Sueter</label></td>
+                    </tr>
+                    <tr> <!-- Calcetines -->
+                        <td><input type="checkbox" name="tipoPrenda" id="Calcetines" value="Calcetines"></td>
+                        <td><label for="Calcetines">Calcetines</label></td>
+                    </tr>
+                    <tr> <!-- Accesorios -->
+                        <td><input type="checkbox" name="tipoPrenda" id="Accesorios" value="Accesorios"></td>
+                        <td><label for="Accesorios">Accesorios</label></td>
+                    </tr>
+                    <tr> <!-- Pijama -->
+                        <td><input type="checkbox" name="tipoPrenda" id="Pijama" value="Pijama"></td>
+                        <td><label for="Pijama">Pijama</label></td>
+                    </tr>
+                    <tr> <!-- Subtítulo Estilo de Prenda ------------------------------- -->
+                        <td colspan="2"><h4>Estilo de prenda</h4></td>
+                    </tr>
+                    <tr> <!-- Deportivo -->
+                        <td><input type="checkbox" name="estiloPrenda" id="Deportivo" value="Deportivo"></td>
+                        <td><label for="Deportivo">Deportivo</label></td>
+                    </tr>
+                    <tr> <!-- Cammiseta -->
+                        <td><input type="checkbox" name="estiloPrenda" id="Casual" value="Casual"></td>
+                        <td><label for="Casual">Casual</label></td>
+                    </tr>
+                    <tr> <!-- Formal -->
+                        <td><input type="checkbox" name="estiloPrenda" id="Formal" value="Formal"></td>
+                        <td><label for="Formal">Formal</label></td>
+                    </tr>
+                    <tr> <!-- Botón de búsqueda -->
+                        <td colspan="2"> <input  type="submit" value="Buscar"></td>
+                    </tr>
+                </table>
+
+            </form>
+        </aside>
+
+        <footer>
+
+        </footer>
+    </body>
+
+
+    <!-- 
+    
+        
+    
+    
+    -->
+
+
+</html>
