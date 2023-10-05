@@ -28,7 +28,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;     /*concuerda con el padding (?)*/
+    height: 100px;                  /*concuerda con el padding (?)*/
 }
 
 h1 {
@@ -78,6 +78,7 @@ h3 {
     font-family: 'Times New Roman',serif;
     font-size: 40px; 
 }
+
 /* PIE DE PÁGINA ------------------------------------ */
 
 footer { 
@@ -88,4 +89,37 @@ footer {
     width: 100%;
     height: 40px;
     text-align: center;
+}
+
+/* BOTONES ------------------------------------------------------------------ */
+
+.btWhite{
+    display: inline-block;
+    padding: 12px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btWhite:hover{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.btBlack{
+    display: inline-block;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btBlack:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
 }

@@ -7,13 +7,86 @@
     - principal
 */
 
+
 section {
     overflow-y: scroll;
-    position: fixed; /*posición fija*/
-    top: 100px;       /* concuerda con ancho del header*/
-    left: 0;       /*concuerda con ancho del aside*/
+    position: fixed;        /*posición fija*/
+    top: 100px;             /* concuerda con ancho del header*/
+    left: 0;                /*concuerda con ancho del aside*/
     bottom: 30px;   
     width: 100%;
-    padding: 20px 50px 0;
+    padding: 0 0 100px;
 }
 
+/* PRINCIPAL -----------------------------------------------------------------*/
+
+.portada{
+    position: relative;
+    text-align: center;
+    padding: 180px 350px;
+}
+
+.bg{ /* Imagen de portada */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /*Para saber qué elementos están más arriba que otros*/
+    width: 100%;
+}
+
+h3{
+    padding-top: 140px;
+}
+ 
+/*articulo 1*/
+
+#art1{
+    margin: 0px auto 180px;
+}
+#art1 h3, #art1 p {
+    margin-left: 450px;
+}
+
+#art1 a {
+    margin-left: 50px;
+}
+#art1 img{
+    float:left;
+    width: 400px; 
+}
+
+/*articulo 2*/
+
+#art2{
+    margin: 0px auto 180px;
+}
+#art2 h3, #art2 p{
+    margin-left: 100px;
+    width: 500px;
+}
+#art2 a {
+    margin-left: 100px;
+}
+
+#art2 img{
+    float:right;
+    width:600px; 
+    top: 0;
+}
+
+/*articulo 3*/
+
+#art3{
+    margin: 0px auto 50px;
+}
+#art3 h3, #art3 p {
+    margin-left: 640px;
+}
+
+#art3 a {
+    margin-left: 54px;
+}
+#art3 img{
+    float:left;
+    height: 500px; 
+}
