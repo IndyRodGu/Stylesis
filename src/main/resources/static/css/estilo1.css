@@ -29,7 +29,6 @@ section {
     position: relative;
     text-align: center;
     padding: 150px 350px;
-    border: 1px dotted red;
 }
 
 .bg{ /* Imagen de portada */
@@ -52,7 +51,7 @@ article h3{
     left:0;
 }
 
-.artS1 img, .artS1 iframe{
+.artS1 img, .artS1 figure, .artS1 form{
     float:left;
     margin-right: 40px;
 }
@@ -69,7 +68,7 @@ article h3{
     width: 500px;
 }
 
-.artS2 img, .artS2 iframe{
+.artS2 img, .artS2 iframe, .artS2 form{
     right:0;
     float:right; 
     margin-right: 40px;
@@ -128,7 +127,7 @@ article h3{
     padding-bottom: 20px;
 }
 
-.articulo h3, .articulo p {
+.articulo h3, .articulo p .articulo h4{
     width: 200px;
 }
 
@@ -143,7 +142,7 @@ article h3{
 }
 
 
-/*  ASESORES ---------------------------------------------------------------- */
+
 
 
 

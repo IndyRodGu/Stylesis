@@ -33,11 +33,6 @@ section {
 
 /* TIENDA ------------------------------------------------------------------- */
 
-.subheading{                                                                    /*"Subtítulo Filtros"*/
-    font-family: "Times New Roman","Garamond";
-    font-size: 26px; 
-}
-
 .nomItem {
     font-size: 20px;
 }
