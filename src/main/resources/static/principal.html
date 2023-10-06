@@ -15,15 +15,16 @@
         <!-- Barra de menú principal ------------------------ -->
         <header>
             <nav class="nav">
-                <!-- Logo y enlace a principal -->
                 <a class="logo" href="principal.html"><h1>stylesis</h1></a>
-                <!-- Menu -->
-                <a class="nav-link" href="tienda.html">tienda</a>
-                <a class="nav-link" href="asesores.html">asesores</a>
-                <a class="nav-link" href="blog.html">blog</a>
-                <a class="nav-link" href="nosotros.html">nosotros</a>
-                <a class="nav-link" href="contactenos.html">contáctenos</a>
-               
+                <ul>
+                    <!-- Logo y enlace a principal -->
+                    <!-- Menu -->
+                    <li><a class="nav-link" href="tienda.html">tienda</a></li>
+                    <li><a class="nav-link" href="asesores.html">asesores</a></li>
+                    <li><a class="nav-link" href="blog.html">blog</a></li>
+                    <li><a class="nav-link" href="nosotros.html">nosotros</a></li>
+                    <li><a class="nav-link" href="contactenos.html">contáctenos</a></li>
+                </ul>
             </nav>
         </header>
         <!-- Contenido -------------------------------------- -->
@@ -33,27 +34,33 @@
                 <h2 style="color: white;">Deja que tus prendas lo digan todo por ti</h2>
                 <a class="btWhite" href="tienda.html">Consigue una prenda</a>
                 <a class="btWhite" href="asesores.html">Encontrar mi estilo</a>
-                <br><br><br><br>
+                <br><br><br><br><br><br>
                 <a style="color: white;" href="#descubre">Descubre tu estilo</a>
             </div>
+            
             <!-- 1. Enlace a tienda -->
-            <article id="art1">
+            <article class="artS1 position">
                 <a name="descubre"></a>
-                <img src="imgs/principal_1.jpg" alt=""/>
+                <img src="imgs/principal_1.jpg" alt="Foto de prenda en un escaparate"
+                        style="width: 400px;" />
                 <h3>Prendas variadas</h3>
                 <p>¡Disfruta de nuestra selección de prendas y encuentra lo que más se adecue a tu estilo!</p>
                 <a class="btBlack" href="tienda.html">Ir a la tienda</a>
             </article>
+            
             <!-- 2. Enlace a asesoría -->
-            <article id="art2">
-                <img src="imgs/principal_2.jpg" alt=""/>
+            <article class="artS2 position">
+                <img src="imgs/principal_2.jpg" alt="Foto de sesión asesoría de estilo"
+                     style="width: 600px;"/>
                 <h3>¡S.O.S! ¡No conozco mi estilo!</h3>
                 <p>¡No te preocupes! Nuestros expertos pueden ayudarte a crear un guardaropa que se ajuste a tí.</p>
                 <a class="btBlack" href="asesores.html">Quiero recibir asesoría</a>
             </article>
+            
             <!-- 3. Enlace a blog -->
-            <article id="art3">
-                <img src="imgs/principal_3.jpg" alt=""/>
+            <article class="artS1 position">
+                <img src="imgs/principal_3.jpg" alt="Foto de zapatero artesanal en su tienda"
+                            style="height:500px;"/>
                 <h3>Mucho por compartir</h3>
                 <p>Nuestros expertos tienen mucho por compartir. Visita nuestro blog y encuentra sus consejos, experiencias y más</p>
                 <a class="btBlack" href="blog.html" >Visita nuestro blog</a>
